@@ -1,7 +1,7 @@
 # owasp-testing-checklist-v4-markdown
 Markdown version of OWASP Testing Checklist v4 
 
-4.2 		Information Gathering
+## 4.2 		Information Gathering
 - [ ] OTG-INFO-001 	Conduct Search Engine Discovery and Reconnaissance for Information Leakage
 - [ ] OTG-INFO-002 	Fingerprint Web Server
 - [ ] OTG-INFO-003 	Review Webserver Metafiles for Information Leakage
@@ -13,7 +13,7 @@ Markdown version of OWASP Testing Checklist v4
 - [ ] OTG-INFO-009 	Fingerprint Web Application
 - [ ] OTG-INFO-010 	Map Application Architecture
 		
-4.3 		Configuration and Deploy Management Testing
+## 4.3 		Configuration and Deploy Management Testing
 - [ ] OTG-CONFIG-001 	Test Network/Infrastructure Configuration
 - [ ] OTG-CONFIG-002 	Test Application Platform Configuration
 - [ ] OTG-CONFIG-003 	Test File Extensions Handling for Sensitive Information
@@ -23,7 +23,7 @@ Markdown version of OWASP Testing Checklist v4
 - [ ] OTG-CONFIG-007 	Test HTTP Strict Transport Security
 - [ ] OTG-CONFIG-008 	Test RIA cross domain policy
 		
-4.4 		Identity Management Testing
+## 4.4 		Identity Management Testing
 - [ ] OTG-IDENT-001 	Test Role Definitions
 - [ ] OTG-IDENT-002 	Test User Registration Process
 - [ ] OTG-IDENT-003 	Test Account Provisioning Process
@@ -32,7 +32,7 @@ Markdown version of OWASP Testing Checklist v4
 - [ ] OTG-IDENT-006 	Test Permissions of Guest/Training Accounts
 - [ ] OTG-IDENT-007 	Test Account Suspension/Resumption Process
 		
-4.5 		Authentication Testing
+## 4.5 		Authentication Testing
 - [ ] OTG-AUTHN-001 	Testing for Credentials Transported over an Encrypted Channel
 - [ ] OTG-AUTHN-002 	Testing for default credentials
 - [ ] OTG-AUTHN-003 	Testing for Weak lock out mechanism
@@ -44,13 +44,13 @@ Markdown version of OWASP Testing Checklist v4
 - [ ] OTG-AUTHN-009 	Testing for weak password change or reset functionalities
 - [ ] OTG-AUTHN-010 	Testing for Weaker authentication in alternative channel
 		
-4.6 		Authorization Testing
+## 4.6 		Authorization Testing
 - [ ] OTG-AUTHZ-001 	Testing Directory traversal/file include
 - [ ] OTG-AUTHZ-002 	Testing for bypassing authorization schema
 - [ ] OTG-AUTHZ-003 	Testing for Privilege Escalation
 - [ ] OTG-AUTHZ-004 	Testing for Insecure Direct Object References
 		
-4.7 		Session Management Testing
+## 4.7 		Session Management Testing
 - [ ] OTG-SESS-001 	Testing for Bypassing Session Management Schema
 - [ ] OTG-SESS-002 	Testing for Cookies attributes
 - [ ] OTG-SESS-003 	Testing for Session Fixation
@@ -60,7 +60,7 @@ Markdown version of OWASP Testing Checklist v4
 - [ ] OTG-SESS-007 	Test Session Timeout
 - [ ] OTG-SESS-008 	Testing for Session puzzling
 		
-4.8 		Data Validation Testing
+## 4.8 		Data Validation Testing
 - [ ] OTG-INPVAL-001 	Testing for Reflected Cross Site Scripting
 - [ ] OTG-INPVAL-002 	Testing for Stored Cross Site Scripting
 - [ ] OTG-INPVAL-003 	Testing for HTTP Verb Tampering
@@ -89,16 +89,16 @@ Markdown version of OWASP Testing Checklist v4
 - [ ] OTG-INPVAL-015 	Testing for incubated vulnerabilities
 - [ ] OTG-INPVAL-016 	Testing for HTTP Splitting/Smuggling
 		
-4.9 		Error Handling
+## 4.9 		Error Handling
 - [ ] OTG-ERR-001 	Analysis of Error Codes
 - [ ] OTG-ERR-002 	Analysis of Stack Traces
 		
-4.10 		Cryptography
+## 4.10 		Cryptography
 - [ ] OTG-CRYPST-001 	Testing for Weak SSL/TSL Ciphers, Insufficient Transport Layer Protection
 - [ ] OTG-CRYPST-002 	Testing for Padding Oracle
 - [ ] OTG-CRYPST-003 	Testing for Sensitive information sent via unencrypted channels
 		
-4.11 		Business Logic Testing
+## 4.11 		Business Logic Testing
 - [ ] OTG-BUSLOGIC-001 	Test Business Logic Data Validation
 - [ ] OTG-BUSLOGIC-002 	Test Ability to Forge Requests
 - [ ] OTG-BUSLOGIC-003 	Test Integrity Checks
@@ -109,7 +109,7 @@ Markdown version of OWASP Testing Checklist v4
 - [ ] OTG-BUSLOGIC-008 	Test Upload of Unexpected File Types
 - [ ] OTG-BUSLOGIC-009 	Test Upload of Malicious Files
 		
-4.12 		Client Side Testing
+## 4.12 		Client Side Testing
 - [ ] OTG-CLIENT-001 	Testing for DOM based Cross Site Scripting
 - [ ] OTG-CLIENT-002 	Testing for JavaScript Execution
 - [ ] OTG-CLIENT-003 	Testing for HTML Injection
