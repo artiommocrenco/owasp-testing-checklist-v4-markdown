@@ -3,6 +3,8 @@ Markdown version of OWASP Testing Checklist v4. For use in GitLab, GitHub, JIRA 
 
 For licence information consult the [official Testing Checklist page](https://www.owasp.org/index.php/Testing_Checklist).
 
+[Open the raw version](https://raw.githubusercontent.com/amocrenco/owasp-testing-checklist-v4-markdown/master/README.md) of this README and Copy & Paste it anywhere you want it to be.
+
 ## 4.2 		Information Gathering
 - [ ] OTG-INFO-001 	Conduct Search Engine Discovery and Reconnaissance for Information Leakage
 - [ ] OTG-INFO-002 	Fingerprint Web Server
